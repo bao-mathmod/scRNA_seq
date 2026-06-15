@@ -20,7 +20,7 @@ website:
           - href: orientation/orientation-day-runbook.qmd
             text: Mentor runbook
       - href: day0/index.qmd
-        text: Day 0: R
+        text: "Day 0: R"
       - text: Weeks
         menu:
           - href: weeks/week01.qmd
