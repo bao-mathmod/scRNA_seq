@@ -1,0 +1,23 @@
+---
+title: "Reading List"
+---
+
+## Beginner
+
+- Seurat official tutorials
+- Bioconductor single-cell workflows
+- 10x Genomics documentation on feature-barcode matrices
+
+## Concepts
+
+- Single-cell RNA-seq vs bulk RNA-seq
+- UMI and barcode logic
+- Quality control in droplet-based scRNA-seq
+- Cell-type annotation and marker genes
+
+## Advanced later
+
+- Integration and batch correction
+- Pseudobulk differential expression
+- Pseudotime and trajectory inference
+- Cell-cell communication inference

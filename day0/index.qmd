@@ -1,0 +1,21 @@
+---
+title: "Day 0: R Foundation"
+---
+
+## Goal
+
+Day 0 prepares the minimal R foundation needed before starting Seurat.
+
+## Students should be able to
+
+- Open RStudio.
+- Run an R script.
+- Install and load packages.
+- Understand vectors, data frames, lists, and matrices.
+- Read a CSV/TSV file.
+- Make a simple plot.
+- Understand project folders and working directory.
+
+## Why R before Seurat?
+
+Seurat is an R package. If students do not understand basic R objects, they may run commands without understanding what is stored in the analysis object.

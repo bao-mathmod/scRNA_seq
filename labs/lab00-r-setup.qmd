@@ -1,0 +1,29 @@
+---
+title: "Lab 00: R Setup"
+format: html
+execute:
+  eval: false
+---
+
+## Goal
+
+Check that R, RStudio, and packages are working.
+
+```r
+R.version.string
+getwd()
+```
+
+## Install basic packages
+
+```r
+install.packages(c("tidyverse", "Matrix", "patchwork", "here", "renv"))
+```
+
+## Test loading
+
+```r
+library(tidyverse)
+library(Matrix)
+library(here)
+```

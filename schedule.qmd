@@ -1,0 +1,16 @@
+---
+title: "Course Schedule"
+---
+
+| Session | Topic | Main outcome |
+|---|---|---|
+| Orientation | Big picture of scRNA-seq | Understand the full journey from sample to biological insight |
+| Day 0 | R language and environment setup | Install and run R/RStudio; understand basic objects |
+| Week 1 | Biology and technology of scRNA-seq | Understand cells, RNA capture, barcodes, UMIs, and count matrices |
+| Week 2 | Seurat object and data structure | Load data and inspect metadata/counts |
+| Week 3 | Quality control | Identify poor-quality cells, doublets, and stressed cells |
+| Week 4 | Normalization, HVGs, PCA, UMAP | Build the first analysis pipeline |
+| Week 5 | Clustering and marker genes | Identify cluster-specific markers |
+| Week 6 | Cell-type annotation and integration | Label clusters and understand batch effects |
+| Week 7 | Differential expression and interpretation | Compare groups carefully |
+| Week 8 | Advanced overview and mini-project | Present a small analysis story |

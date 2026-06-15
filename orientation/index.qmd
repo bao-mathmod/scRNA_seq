@@ -1,0 +1,101 @@
+---
+title: "Orientation Day: Big Picture of Single-cell RNA-seq"
+subtitle: "Before Day 0: understanding the map before learning the code"
+---
+
+## Learning objectives
+
+By the end of Orientation Day, students should be able to:
+
+1. Explain why bulk RNA-seq can hide important cell-level biology.
+2. Describe what scRNA-seq measures at a high level.
+3. Explain the roles of cell barcodes and UMIs.
+4. Recognize that the central data object is a gene-by-cell count matrix.
+5. Draw the computational workflow from QC to biological interpretation.
+6. Understand why Day 0 starts with R.
+
+## The core story
+
+```text
+Biological sample
+  -> single cells or nuclei
+  -> library preparation with barcodes and UMIs
+  -> sequencing
+  -> gene-by-cell count matrix
+  -> quality control
+  -> normalization and feature selection
+  -> PCA, clustering, UMAP
+  -> marker genes and cell-type annotation
+  -> biological interpretation
+  -> advanced analyses: DE, integration, trajectory, communication
+```
+
+## Why single-cell RNA-seq?
+
+Bulk RNA-seq gives an average expression profile across many cells. This is useful when the sample is homogeneous, but complex tissues are mixtures of different cell types and states.
+
+Single-cell RNA-seq helps reveal:
+
+- rare cell types,
+- changing cell states,
+- tumor microenvironment composition,
+- immune cell diversity,
+- developmental trajectories,
+- cell-type-specific disease signals.
+
+## What does scRNA-seq measure?
+
+scRNA-seq does not directly tell us the full identity of a cell. It measures detected RNA molecules from each cell or nucleus. Because RNA capture is incomplete, the data are sparse and noisy.
+
+Important concepts:
+
+- **Cell barcode:** identifies which cell a read came from.
+- **UMI:** identifies original RNA molecules and helps reduce PCR duplication bias.
+- **Dropout:** a gene may be expressed but not detected.
+- **Count matrix:** rows are genes, columns are cells, values are counts.
+
+## Why the count matrix matters
+
+The count matrix is the starting point for most practical scRNA-seq analysis in R/Seurat.
+
+```text
+          Cell1  Cell2  Cell3
+GeneA       0      5      1
+GeneB       3      0      0
+GeneC      10      2      8
+```
+
+Everything later depends on this matrix: QC, normalization, PCA, clustering, marker genes, and annotation.
+
+## Computational pipeline preview
+
+1. Create analysis object.
+2. Perform quality control.
+3. Normalize counts.
+4. Select highly variable genes.
+5. Scale data.
+6. Run PCA.
+7. Build nearest-neighbor graph.
+8. Cluster cells.
+9. Visualize with UMAP.
+10. Find marker genes.
+11. Annotate cell types.
+12. Interpret biology.
+
+## What comes later in the course?
+
+- Day 0: R language and RStudio setup
+- Week 1: scRNA-seq biology and technology
+- Week 2: data structures and Seurat objects
+- Week 3: quality control
+- Week 4: normalization, PCA, UMAP
+- Week 5: clustering and marker genes
+- Week 6: annotation and integration
+- Week 7: differential expression
+- Week 8: mini-project and advanced overview
+
+## Homework after orientation
+
+1. In 5-7 sentences, answer: Why do we need scRNA-seq instead of only bulk RNA-seq?
+2. Redraw the pipeline from memory.
+3. Install R, RStudio, Git, and Quarto before Day 0.

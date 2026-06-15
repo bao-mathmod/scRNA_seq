@@ -1,0 +1,20 @@
+---
+title: "Glossary"
+---
+
+| Term | Meaning |
+|---|---|
+| scRNA-seq | Single-cell RNA sequencing |
+| UMI | Unique molecular identifier; tags original RNA molecules |
+| Cell barcode | Sequence label used to identify which cell a read came from |
+| Count matrix | Gene-by-cell matrix of expression counts |
+| Dropout | A zero count caused by non-detection rather than true absence |
+| QC | Quality control; removal of low-quality cells or artifacts |
+| HVG | Highly variable gene |
+| PCA | Principal component analysis |
+| UMAP | 2D visualization method commonly used in single-cell analysis |
+| Cluster | Group of transcriptionally similar cells |
+| Marker gene | Gene enriched in a cluster or cell type |
+| Batch effect | Technical variation caused by experiment/run differences |
+| Doublet | Two cells captured as one apparent cell |
+| Ambient RNA | Free RNA in droplets that can contaminate expression profiles |

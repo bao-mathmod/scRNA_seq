@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "scRNA-seq Mentorship Course"
+  description: "R-based mentorship course from scRNA-seq concepts to practical analysis"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: schedule.qmd
+        text: Schedule
+      - href: setup.qmd
+        text: Setup
+      - text: Orientation
+        menu:
+          - href: orientation/index.qmd
+            text: Orientation lesson
+          - href: orientation/orientation-day-runbook.qmd
+            text: Mentor runbook
+      - href: day0/index.qmd
+        text: Day 0: R
+      - text: Weeks
+        menu:
+          - href: weeks/week01.qmd
+            text: Week 1
+          - href: weeks/week02.qmd
+            text: Week 2
+          - href: weeks/week03.qmd
+            text: Week 3
+          - href: weeks/week04.qmd
+            text: Week 4
+          - href: weeks/week05.qmd
+            text: Week 5
+          - href: weeks/week06.qmd
+            text: Week 6
+          - href: weeks/week07.qmd
+            text: Week 7
+          - href: weeks/week08.qmd
+            text: Week 8
+      - text: Resources
+        menu:
+          - href: resources/glossary.qmd
+            text: Glossary
+          - href: resources/reading-list.qmd
+            text: Reading list
+  page-footer:
+    left: "scRNA-seq Mentorship Course"
+    right: "Built with Quarto and GitHub Pages"
+  repo-url: "https://github.com/<your-username>/scrnaseq-mentorship-r"
+  repo-actions: [edit, issue]
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+    code-fold: show
+    smooth-scroll: true
+
+execute:
+  freeze: auto

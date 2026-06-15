@@ -1,0 +1,50 @@
+---
+title: "Orientation Day Mentor Runbook"
+---
+
+## Purpose
+
+This is a mentor-facing checklist for running the first orientation meeting.
+
+## Before the meeting
+
+- Prepare the orientation deck.
+- Open this website locally or on GitHub Pages.
+- Prepare one whiteboard diagram of the full pipeline.
+- Check student background: R, biology, RNA-seq, statistics.
+
+## Suggested agenda
+
+| Time | Segment | Goal |
+|---|---|---|
+| 0-5 min | Welcome | Explain that today is a map session |
+| 5-15 min | Bulk limitation | Show why averages hide heterogeneity |
+| 15-25 min | Why scRNA-seq | Connect to rare cells and disease biology |
+| 25-40 min | Technology overview | Explain barcodes, UMIs, droplet methods |
+| 40-50 min | Count matrix | Make students explain rows and columns |
+| 50-65 min | Computational pipeline | Preview QC, UMAP, clustering, annotation |
+| 65-72 min | Advanced preview | DE, pseudotime, integration, pitfalls |
+| 72-75 min | Day 0 bridge | Explain R setup and homework |
+
+## Key mentor phrases
+
+> Today is not a coding session. Today is a map session.
+
+> UMAP is not the raw data. The raw object we care about is the gene-by-cell count matrix.
+
+> Running code is Level 1. Understanding what each step does is Level 2. Knowing whether the biology makes sense is Level 3.
+
+## Discussion questions
+
+1. What information can be hidden inside an average expression profile?
+2. Why might a gene have a zero count in one cell?
+3. Why can doublets create fake cell states?
+4. Why should we be careful when naming clusters?
+
+## End-of-meeting checklist
+
+- Students can explain bulk vs single-cell.
+- Students can describe barcode and UMI at a high level.
+- Students can identify the count matrix.
+- Students can draw the analysis workflow.
+- Students know what to install for Day 0.

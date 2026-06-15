@@ -1,0 +1,40 @@
+---
+title: "Setup Guide"
+---
+
+## Required tools
+
+Install these before Day 0:
+
+- R
+- RStudio
+- Git
+- Quarto
+
+## Recommended R packages
+
+Do not install everything at once if your computer is slow. We will install packages gradually.
+
+```r
+install.packages(c("tidyverse", "Matrix", "patchwork", "here", "renv"))
+install.packages("Seurat")
+```
+
+Later, we will use Bioconductor packages:
+
+```r
+install.packages("BiocManager")
+BiocManager::install(c("SingleCellExperiment", "scater", "scran", "SingleR", "celldex"))
+```
+
+## Folder organization
+
+Create one local folder for the course, for example:
+
+```text
+scRNAseq-course/
+├── notes/
+├── scripts/
+├── data/
+└── outputs/
+```
