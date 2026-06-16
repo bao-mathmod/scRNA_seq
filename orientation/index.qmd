@@ -99,3 +99,7 @@ Everything later depends on this matrix: QC, normalization, PCA, clustering, mar
 1. In 5-7 sentences, answer: Why do we need scRNA-seq instead of only bulk RNA-seq?
 2. Redraw the pipeline from memory.
 3. Install R, RStudio, Git, and Quarto before Day 0.
+
+## Materials 
+
+[Click here to view the Slides](https://drive.google.com/file/d/1ulwAD1xxKfSx9z4Pk-vWsEWpdCFo5AKa/view?usp=sharing)
