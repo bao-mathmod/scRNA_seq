@@ -5,16 +5,16 @@ subtitle: "From single-cell concepts to practical R analysis"
 
 ## Welcome
 
-This course is designed for beginners who want to understand single-cell RNA-seq from both the biological and computational sides.
+This blog is designed for beginners who want to understand single-cell RNA-seq from both the biological and computational sides.
 
-The course starts with a non-coding orientation day, then moves into R foundations and practical single-cell analysis.
+The blog starts with a non-coding orientation day, then moves into R foundations and practical single-cell analysis.
 
-## Course structure
+## Blog structure
 
 | Phase | Focus | Output |
 |---|---|---|
-| Orientation | Big picture of scRNA-seq | Students can draw the full pipeline |
-| Day 0 | R setup and basic R objects | Students can run R scripts |
+| Orientation | Big picture of scRNA-seq | People can draw the full pipeline |
+| Day 0 | R setup and basic R objects | People can run R scripts |
 | Weeks 1-4 | Data structure, QC, normalization, PCA/UMAP | First complete Seurat workflow |
 | Weeks 5-6 | Clustering, markers, annotation, integration | Biological interpretation |
 | Weeks 7-8 | DE, pseudotime preview, mini-project | Final report |

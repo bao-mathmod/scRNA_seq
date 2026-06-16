@@ -3,8 +3,8 @@ project:
   output-dir: _site
 
 website:
-  title: "scRNA-seq Mentorship Course"
-  description: "R-based mentorship course from scRNA-seq concepts to practical analysis"
+  title: "scRNA-seq Bao's blog"
+  description: "R-based blog from scRNA-seq concepts to practical analysis"
   navbar:
     left:
       - href: index.qmd
@@ -46,9 +46,9 @@ website:
           - href: resources/reading-list.qmd
             text: Reading list
   page-footer:
-    left: "scRNA-seq Mentorship Course"
+    left: "scRNA-seq Bao's blog"
     right: "Built with Quarto and GitHub Pages"
-  repo-url: "https://github.com/<your-username>/scrnaseq-mentorship-r"
+  repo-url: "https://github.com/bao-mathmod/scRNA_seq.git"
   repo-actions: [edit, issue]
 
 format:
